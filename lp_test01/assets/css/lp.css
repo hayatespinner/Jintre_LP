@@ -1,4 +1,4 @@
-.hero-area{
+.hero-area, .banner-area, .request-area{
     position: relative;
 }
 
@@ -9,13 +9,23 @@
     width: 40%;
 }
 
-.banner-area{
-    position: relative;
-}
-
 .banner-contact{
     position: absolute;
     top: 45%;
     right: 10%;
+    width: 39%;
+}
+
+.request-contact1{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    width: 39%;
+}
+
+.request-contact2{
+    position: absolute;
+    top: 15%;
+    right: 8%;
     width: 39%;
 }
