@@ -11,7 +11,7 @@
 
 .banner-contact{
     position: absolute;
-    top: 45%;
+    top: 42%;
     right: 10%;
     width: 39%;
 }
@@ -31,5 +31,5 @@
 }
 
 @media(max-width: 768px){
-    
+
 }
