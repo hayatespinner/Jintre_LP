@@ -1,0 +1,68 @@
+.hero-area1{
+    position: relative;
+}
+
+.contactlink{
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    width: 22%;
+}
+
+.contactlink img{
+    width: 100%;
+}
+
+.document-link{
+    position: absolute;
+    left: 150px;
+    bottom: 45px;
+    width: 35%;
+}
+
+.document-link img{
+    width: 100%;
+}
+
+.tell-link{
+    position: absolute;
+    right: 150px;
+    bottom: 45px;
+    width: 35%;
+}
+
+.tell-link img{
+    width: 100%;
+}
+
+@media screen and (max-width:1024px) { 
+    .contactlink{
+        right: 40px;
+        bottom: 20px;
+        width: 22%;
+    }
+    .tell-link{
+        right: 90px;
+        bottom: 35px;
+    }
+    .document-link{
+        left: 90px;
+        bottom: 35px;
+    }
+}
+
+@media screen and (max-width:480px) { 
+    .contactlink{
+        right: 30px;
+        bottom: 10px;
+        width: 22%;
+    }
+    .tell-link{
+        right: 50px;
+        bottom: 20px;
+    }
+    .document-link{
+        left: 50px;
+        bottom: 20px;
+    }
+}
