@@ -1,68 +1,31 @@
-.hero-area1{
+.hero-area, .banner-area, .request-area{
     position: relative;
 }
 
-.contactlink{
+.hero-contact{
     position: absolute;
-    right: 50px;
-    bottom: 30px;
-    width: 22%;
+    top: 80%;
+    left: 10%;
+    width: 40%;
 }
 
-.contactlink img{
-    width: 100%;
-}
-
-.document-link{
+.banner-contact{
     position: absolute;
-    left: 150px;
-    bottom: 45px;
-    width: 35%;
+    top: 45%;
+    right: 10%;
+    width: 39%;
 }
 
-.document-link img{
-    width: 100%;
-}
-
-.tell-link{
+.request-contact1{
     position: absolute;
-    right: 150px;
-    bottom: 45px;
-    width: 35%;
+    top: 15%;
+    left: 9%;
+    width: 39%;
 }
 
-.tell-link img{
-    width: 100%;
-}
-
-@media screen and (max-width:1024px) { 
-    .contactlink{
-        right: 40px;
-        bottom: 20px;
-        width: 22%;
-    }
-    .tell-link{
-        right: 90px;
-        bottom: 35px;
-    }
-    .document-link{
-        left: 90px;
-        bottom: 35px;
-    }
-}
-
-@media screen and (max-width:480px) { 
-    .contactlink{
-        right: 30px;
-        bottom: 10px;
-        width: 22%;
-    }
-    .tell-link{
-        right: 50px;
-        bottom: 20px;
-    }
-    .document-link{
-        left: 50px;
-        bottom: 20px;
-    }
+.request-contact2{
+    position: absolute;
+    top: 15%;
+    right: 9%;
+    width: 39%;
 }
