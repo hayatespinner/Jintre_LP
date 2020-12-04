@@ -1,0 +1,98 @@
+.col-3, .col-4, .col-5{
+    padding-right: 10px!important;
+    padding-left: 10px!important;
+}
+
+.header-left img{
+    vertical-align: text-bottom;
+}
+
+.hero-area, .banner-area, .request-area, .soudan-area{
+    position: relative;
+}
+
+.hero-contact{
+    position: absolute;
+    top: 82%;
+    left: 10%;
+    width: 40%;
+}
+
+.hero-contact1{
+    position: absolute;
+    top: 63%;
+    left: 11%;
+    width: 80%;
+}
+
+.hero-contact2{
+    position: absolute;
+    top: 88%;
+    left: 16%;
+    width: 69%;
+}
+
+.soudan-contact{
+    position: absolute;
+    top: 56%;
+    left: 16%;
+    width: 69%;
+}
+
+.banner-contact{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    width: 39%;
+}
+
+.banner-contact-sp{
+    position: absolute;
+    top: 58%;
+    right: 19%;
+    width: 63%;
+}
+
+.request-contact1{
+    position: absolute;
+    top: 15%;
+    left: 9%;
+    width: 39%;
+}
+
+.request-contact2{
+    position: absolute;
+    top: 15%;
+    right: 9%;
+    width: 39%;
+}
+
+@media screen and (max-width:767px){
+    .pc{
+        display: none;
+    }
+    .sp{
+        display: block;
+        padding: 0!important;
+    }
+}
+
+@media (max-width: 1020px) and (min-width: 768px) {
+    .container{
+        padding: 0!important;
+        max-width: 100%!important;
+    }
+    header{
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width:767px){
+    .pc{
+        display: block;
+    }
+    .sp{
+        display: none;
+    }
+}
+
